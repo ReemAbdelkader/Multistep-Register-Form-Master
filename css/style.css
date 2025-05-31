@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --text-color: #ffffff7a;
+    --border-color: #ffffff52;
+    --backgroundcolor: #0403032e;
+    --button-color: #a72b9cbe;
+    --input-color: #ffffffde;
+    --header-color: #ffffffed;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+
+body {
+    background-color: #131329f0;
+    height: 50vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_glo {
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    position: relative;
+    left: 25%;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* swiper style */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination{
+    margin-left: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.swiper-pagination span {
+    width: 15px;
+    left: 8px;
+    height: 15px;
+    background-color: var(--button-color);
+    box-shadow: 1px 0px 8px 3px #80808087;
+}
+
+/* First slide style */
+
+img {
+    position: relative;
+    top: 1rem;
+    right: 8rem;
+}
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* right: 12rem; */
+}
+.container .forms {
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+.container .forms .first_slide{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--backgroundcolor);
+    border-radius: 20px;
+}
+.container .forms .first_slide h2 {
+    position: relative;
+    right: 9rem;
+    color: var(--header-color);
+}
+.container .forms .first_slide .input-data {
+    display: grid;
+    right: 6rem;
+    gap: 2rem;
+}
+.container .forms .first_slide .input-data label{
+    font-size: 18px;
+    color: #ffffffb8;
+    display: flex;
+}
+.container .forms .first_slide .input-data input{
+    height: 40px;
+    width: 400px;
+    border-radius: 13px;
+    border: .5px solid #ffffff5e;
+    background: none;
+    outline: none;
+    padding: 1.25rem;
+    color: var(--input-color);
+}
+.first_slide .input-data input::placeholder{
+    color: #ffffffcf;
+    position: absolute;
+    margin-left: 20px;
+}
+.forms .first_slide .input-data input:focus::placeholder {
+    margin-left: 10px;
+    color: transparent;
+}
+
+.container .switches {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 20px;
+    color: #ffffff54;
+}
+
+/* second slide style */
+
+.container .second_slide {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--backgroundcolor);
+    border-radius: 20px;
+}
+.container .second_slide .btn{
+    display: grid;
+    width: 412px;
+    padding: 1rem;
+    gap: 1rem;
+}
+.container .second_slide .btn label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+}
+.container .second_slide .btn label:hover{
+    background-color: transparent;
+}
+.container .second_slide .btn input[type = "checkbox"]{
+    margin-right: 0.5rem;
+    display: none;
+}
+.container .second_slide .btn label.selected{
+    background-color: var(--button-color);
+}
+.container .second_slide h3{
+    font-size: 22px;
+    color: var(--header-color);
+}
+.switches {
+    margin-top: 3rem;
+}
+.switches h4 {
+    margin-right: 10rem;
+}
+
+/* Third slide style */
+
+.container .forms .third_slide {
+    background-color: var(--backgroundcolor);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.container .third_slide .name_data , 
+.container .third_slide .email_data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.container .forms .third_slide h3 ,
+.container .forms .third_slide .content{
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    width: 426px;
+    position: relative;
+    gap: .5rem;
+    color: var(--text-color);
+}
+
+.container .forms .third_slide h4{
+    color: var(--text-color);
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.container .forms .third_slide .topics{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.container .forms .third_slide .topics h4{
+    color: var(--text-color);
+    width: 53%;
+    position: relative;
+    right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container .forms .third_slide h5,
+.container .forms .third_slide ul li {
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.container .forms .third_slide ul{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+

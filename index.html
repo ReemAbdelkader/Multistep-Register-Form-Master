@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/contact_address_envelope_letter_internet_business_message_edit_mail_icon_265511.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>Multistep Register Form Master</title>
+</head>
+<body>   
+
+
+    <img src="images/blur-radial.png" alt="">
+            <div class="container swiper">
+            <div class="forms swiper-wrapper" id="first-form">
+                <form class="first_slide swiper-slide">
+                                <h2>Register</h2>
+                                <div class="input-data">
+                                    <label>Name</label>
+                                    <input class="name_input" id = "name-input" type="text" placeholder="Enter Your Name" maxlength="20" required>
+                                </div>
+                                <div class="input-data">
+                                    <label>Email</label>
+                                    <input class="email_input" id = "email-input" type="email" placeholder="Enter Valid Email"  required>
+                                </div>
+                        <button type = "button" class="btn_glo next-btn" type="button">Continue</button>
+                </form>
+                <form class="second_slide swiper-slide" id="second-form">
+                    <h3>Which topics you are interested in?</h3>
+                    <div class="btn">
+                        <label class="topic-label" for="topic-software"><input id="topic-software" type="checkbox" name="topics" value="Software Development">Software Development</label>
+                        <label class="topic-label" for="topic-ux"><input id="topic-ux" type="checkbox" name="topics" value="User Experience">User Experience</label>
+                        <label class="topic-label" for="topic-graphic"><input id="topic-graphic" type="checkbox" name="topics" value="Graphic Design">Graphic Design</label>
+                    </form>
+                    <button class="btn_glo next-btn submit-btn" type="button">Continue</button>
+                </div>
+                <div class="third_slide swiper-slide" id="third-form">
+                    <h3>Summary</h3>
+                    <div class="content">
+                        <div class="name_data">
+                            <h4>Name:</h4>
+                            <h5 class="data" id="summary-name"></h5>
+                        </div>
+                        <div class="email_data">
+                            <h4>Email:</h4>
+                            <h5 class="data" id="summary-email"></h5>
+                        </div>
+                        <div class="topics">
+                            <h4>Topics:</h4>
+                            <ul class="data_list" id="summary-topics">
+                                <li>
+                                    
+                                </li>
+                                <li>
+                                    
+                                </li>
+                                <li>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="btn_glo complete-btn" type="button">Submit</button>
+                </div>
+            </div>
+            <div class="switches">
+                <h4>Step 1 of 3</h4>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
