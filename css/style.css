@@ -237,7 +237,31 @@ img {
     padding: 0;
 }
 
+/* Media Quires */
 
+@media (max-width: 397px) {
+    .container {
+        width: 377px;
+    }
+    .container .forms .first_slide h2 {
+        right: 7rem;
+    }
+    .container .forms .first_slide .input-data {
+        width: 333px;
+    }
+    .container .forms .first_slide .input-data input {
+        width: 333px;
+    }
+    .container .second_slide .btn {
+        width: 376px;
+    }
+    .container .forms .third_slide {
+        width: 369px;
+    }
+    .container .forms .third_slide h3, .container .forms .third_slide .content {
+        width: 330px;
+    }
+}
 
 
 
