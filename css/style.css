@@ -239,7 +239,7 @@ img {
 
 /* Media Quires */
 
-@media (max-width: 397px) {
+@media (min-width: 397px) and (max-width: 505px) {
     .container {
         width: 377px;
     }
