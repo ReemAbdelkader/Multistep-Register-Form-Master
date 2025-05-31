@@ -4,12 +4,12 @@ A sleek and responsive multistep registration form built with vanilla HTML, CSS,
 Table of Contents
 
 
-# Features
+## 📝 Features
 
 Three-Step Workflow:
-Step 1: Collects user's name and email with client-side validation.
-Step 2: Enables multiple topic selections (e.g., Software Development, User Experience, Graphic Design) with custom toggleable buttons.
-Step 3: Presents a summary of user inputs with a confirmation action.
+- ✅ Step 1: Collects user's name and email with client-side validation.
+- ✅ Step 2: Enables multiple topic selections (e.g., Software Development, User Experience, Graphic Design) with custom toggleable buttons.
+- ✅ Step 3: Presents a summary of user inputs with a confirmation action.
 
 
 Custom Topic Selection: Hidden checkboxes with styled labels that toggle background colors on click, persisting until deselected.
@@ -20,28 +20,30 @@ Lightweight: Built without heavy frameworks, using only vanilla JavaScript and m
 
 
 
-Step 1: Registration Form
-Step 2: Topic Selection
-Step 3: Summary
+- ✅ Step 1: Registration Form
+- ✅ Step 2: Topic Selection
+- ✅ Step 3: Summary
 
 
 
+# 🎻 Usage
 
-# Usage
+- ✅ Step 1: Enter your name and a valid email address. The form validates inputs to ensure they are not empty and the email format is correct.
+- ✅ Step 2: Click to select one or more topics. Click again to deselect. Selected topics are highlighted with a distinct background color.
+- ✅ Step 3: Review your name, email, and selected topics. Click "Submit" to complete the registration and view a confirmation message.
 
-Step 1: Enter your name and a valid email address. The form validates inputs to ensure they are not empty and the email format is correct.
-Step 2: Click to select one or more topics. Click again to deselect. Selected topics are highlighted with a distinct background color.
-Step 3: Review your name, email, and selected topics. Click "Submit" to complete the registration and view a confirmation message.
+## ✨ Technologies Used
 
-# Technologies Used
+- ✅  HTML5: For structuring the form and slide content.
+- ✅  CSS3: For styling, responsive layouts, and custom toggle effects.
+- ✅  JavaScript: For form validation, dynamic updates, and topic selection logic.
+- ✅  Swiper.js: For slide navigation and pagination.
+- ✅ Google Fonts: Cabin font for modern typography.
 
-1 - HTML5: For structuring the form and slide content.
-2 - CSS3: For styling, responsive layouts, and custom toggle effects.
-3 - JavaScript: For form validation, dynamic updates, and topic selection logic.
-4 - Swiper.js: For slide navigation and pagination.
-5 -Google Fonts: Cabin font for modern typography.
 
-Project Structure
+
+## 📁 Project Structure 
+
 multistep-form/
 ├── index.html        # Main HTML file with form structure
 ├── style.css         # CSS styles for layout and design
@@ -50,5 +52,5 @@ multistep-form/
 └── README.md         # Project documentation
 
 
-# Live Demo 
-
+## 🎥 Live Demo  
+[View Live Demo](https://reemabdelkader.github.io/TO-DO-LIST/)  
