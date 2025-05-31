@@ -44,12 +44,16 @@ Lightweight: Built without heavy frameworks, using only vanilla JavaScript and m
 
 ## 📁 Project Structure 
 
+```
 multistep-form/
 ├── index.html        # Main HTML file with form structure
 ├── style.css         # CSS styles for layout and design
 ├── script.js         # JavaScript logic and Swiper.js integration
 ├── screenshots/      # Folder for project screenshots (optional)
 └── README.md         # Project documentation
+
+```
+
 
 
 ## 🎥 Live Demo  
